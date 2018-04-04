@@ -41,7 +41,7 @@ public:
             });
 
 
-    int Knife = WEAPON_KNIFE_BAYONET;
+    int Knife = WEAPON_KNIFE_BUTTERFLY;
 
     void FireEventClientSide(IGameEvent* event);
     static std::unordered_map<int, const char*> ModelList;
