@@ -9,7 +9,7 @@ std::unordered_map<int, cSkin> cSkinchanger::SkinList = std::unordered_map<int, 
 	/* NOTE: Change knife model in skinchanger.h */
 	// std::make_pair(WEAPON, cSkin(SKIN, WEAR, -1, Stattrak, (char*)("Name") or nullptr for no name, FLOAT)),
 	// Knife
-	std::make_pair(WEAPON_KNIFE, cSkin(38, -1, WEAPON_KNIFE_M9_BAYONET, 1, (char*)("twister kneiv"), 0.0001f)),
+	std::make_pair(WEAPON_KNIFE, cSkin(38, -1, WEAPON_KNIFE_BUTTERFLY, 1, (char*)("twister kneiv"), 0.0001f)),
 	// Pistols
 	std::make_pair(WEAPON_CZ75A, cSkin(622, -1, -1, -1, nullptr, 0.0001f)),
 	std::make_pair(WEAPON_DEAGLE, cSkin(37, -1, -1, -1, nullptr, 0.0001f)),
